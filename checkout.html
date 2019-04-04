@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min1.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Emilys+Candy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <!-- Animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+
+    <title>Britt's Bakery</title>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+            
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1"><img src="/images/cupcake.png" width="30" height="30" class="d-inline-block align-top" alt="">Britt's Bakery</span>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">About Us</a>
+          </li>
+          <li class="nav-item active">
+             <a class="nav-link" href="catalog.html">Menu <span class="sr-only">(current)</span></a>
+           </li>
+           </ul>
+           <ul class="navbar-nav">
+           <li class="nav-item">
+             <a class="nav-link" href="/cart.html"><img src="/images/cart.png" width="30" height="30" class="d-inline-block align-top" alt="">Cart</a>
+           </li>
+           </ul>
+          </div>
+        </nav>
+
+
+
+      <!-- Checkout -->
+      <div class="container bg-white col-md-6">
+      <h3 class="text-center"><br>Choose Payment Option</h3><br>
+      <div class="container bg-primary"><br></div><br>
+    <form>
+
+    <div class="row col-12 justify-content-center">
+        <div class="row col-12 col-md-6 mr-0 first">
+            <div class="form-row">
+
+                <div class="col-md-12 mb-3">
+                    <b>Credit Card Info</b><hr>
+                      Accepted payments: <img class="payments align-self-end d-inline-block align-top" style="float: right" src="/images/cc.png"  width="50%" height="25%" alt=""><br><br>
+                    <label for="validationDefault01"><b>Name On Card*</b></label>
+                    <input type="text" class="form-control" id="validationDefault01" placeholder="Full Name" required>
+                </div>
+
+                  <div class="col-md-12 mb-3">
+                    <label for="validationDefault02"><b>Card Number*</b></label>
+                    <input type="text" class="form-control visa" id="validationDefault02" placeholder="1234 - 5678 - 9012 - 3456" required>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="exampleFormControlSelect1"><b>Exp Month*</b></label>
+                    <select class="form-control" id="exampleFormControlSelect1" required>
+                    <option value="">01</option>
+                    <option>02</option>
+                    <option>03</option>
+                    <option>04</option>
+                    <option>05</option>
+                    <option>06</option>
+                    <option>07</option>
+                    <option>08</option>
+                    <option>09</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    </select>
+                  </div>
+
+
+                  <div class="col-md-6">
+                    <label for="exampleFormControlSelect2"><b>Exp Year*</b></label>
+                    <select class="form-control" id="exampleFormControlSelect2" required>
+                    <option value="">2019</option>
+                    <option>2020</option>
+                    <option>2021</option>
+                    <option>2022</option>
+                    <option>2023</option>
+                    <option>2024</option>
+                    <option>2025</option>
+                    </select>
+                  </div> 
+
+                  <div class="col-md-6">
+                    <label for="validationDefault03"><b>CVV Number*</b></label>
+                    <input type="text" class="form-control" id="validationDefault03" placeholder="123" required>
+                  </div>
+                                        
+                  <button type="submit" class="btn btn-outline-primary checkoutbutton align-self-end" style="float: right" value="submit">Place Order</button>
+
+            </div>
+          </div>
+                            
+            <div class="row col-12 col-md-6 ml-0">
+              <div class="form-row">
+                 <div class="col-md-12 mb-3">
+                     <b>Billing Address</b><hr>
+
+                      <div class="custom-control custom-checkbox address">
+                        <input type="checkbox" class="custom-control-input" id="defaultChecked2" checked>
+                        <label class="custom-control-label" for="defaultChecked2"><small>Use delivery address as billing address</small></label>
+                      </div>
+
+                    <label for="disabledInput"><b>Address*</b></label>
+                    <input type="text" class="form-control" id="disabledInput" placeholder="123 Main Street" disabled>
+                  </div>
+                        
+
+                  <div class="col-md-12 mb-3">
+                    <label for="disabledInput1"><b>City*</b></label>
+                    <input type="text" class="form-control" id="disabledInput1" placeholder="Staten Island" disabled>
+                  </div>
+
+
+                  <div class="col-md-6">
+                    <label for="exampleFormControlSelect3"><b>State*</b></label>
+                    <select class="form-control" id="exampleFormControlSelect3" disabled>
+                    <option value="AL">AL</option>
+                    <option value="AK">AK</option>
+                    <option value="AR">AR</option>	
+                    <option value="AZ">AZ</option>
+                    <option value="CA">CA</option>
+                    <option value="CO">CO</option>
+                    <option value="CT">CT</option>
+                    <option value="DC">DC</option>
+                    <option value="DE">DE</option>
+                    <option value="FL">FL</option>
+                    <option value="GA">GA</option>
+                    <option value="HI">HI</option>
+                    <option value="IA">IA</option>	
+                    <option value="ID">ID</option>
+                    <option value="IL">IL</option>
+                    <option value="IN">IN</option>
+                    <option value="KS">KS</option>
+                    <option value="KY">KY</option>
+                    <option value="LA">LA</option>
+                    <option value="MA">MA</option>
+                    <option value="MD">MD</option>
+                    <option value="ME">ME</option>
+                    <option value="MI">MI</option>
+                    <option value="MN">MN</option>
+                    <option value="MO">MO</option>	
+                    <option value="MS">MS</option>
+                    <option value="MT">MT</option>
+                    <option value="NC">NC</option>	
+                    <option value="NE">NE</option>
+                    <option value="NH">NH</option>
+                    <option value="NJ">NJ</option>
+                    <option value="NM">NM</option>			
+                    <option value="PA">PA</option>
+                    <option value="NV">NV</option>
+                    <option selected value="NY">NY</option>
+                    <option value="ND">ND</option>
+                    <option value="OH">OH</option>
+                    <option value="OK">OK</option>
+                    <option value="OR">OR</option>
+                    <option value="RI">RI</option>
+                    <option value="SC">SC</option>
+                    <option value="SD">SD</option>
+                    <option value="TN">TN</option>
+                    <option value="TX">TX</option>
+                    <option value="UT">UT</option>
+                    <option value="VT">VT</option>
+                    <option value="VA">VA</option>
+                    <option value="WA">WA</option>
+                    <option value="WI">WI</option>	
+                    <option value="WV">WV</option>
+                    <option value="WY">WY</option>
+                    </select>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="validationDefault04"><b>Zip Code*</b></label>
+                    <input type="text" class="form-control" id="validationDefault04" placeholder="10314" disabled>
+                  </div>
+
+                </div>
+              </div><br>
+
+            </div> <br></form>
+                    
+          </div><br>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
