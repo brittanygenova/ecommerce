@@ -1,0 +1,125 @@
+body{
+background-image:url(../images/bg.png);
+}
+
+.jumbotron-background-image1{
+    background-image:url(../images/hero2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron-background-image2{
+    background-image:url(../images/diner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron-background-image3{
+    background-image:url(../images/jumbo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron-background-image4{
+    background-image:url(../images/macaronhero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron-background-image5{
+    background-image:url(../images/xx.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron-background-image6{
+    background-image:url(../images/v.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+h1, h2,h5, .navbar-brand{
+    font-family: 'Emilys Candy', cursive;
+}
+
+h2, .navbar-light .navbar-brand{
+    color:#D34987;
+}
+
+h4 {font-family: 'Cookie', cursive;}
+
+p, h3{font-family: 'Josefin Sans', sans-serif;}
+
+
+@media only screen and (max-width:768px){
+    .display-4{
+        font-size:32px; 
+    }
+
+    .first{
+        white-space: pre-line;
+    }
+
+    .payments{
+        width:100%;
+    }
+    
+}
+
+@media only screen and (max-width:576px){
+    .outsidepic{
+        width:100%;
+    }
+}
+
+
+.navbar .navbar-brand {
+    color: #ec3594 !important;
+  }
+
+.carousel-inner{
+    display:flex;
+    margin:0 auto;}
+
+.flipInX {
+        animation-duration: 3s;
+animation-delay: 0.4s;
+}
+
+.payments { vertical-align: middle; }
+
+.address{padding-bottom: 24px;}
+
+.visa { 
+    background: url("/images/visa.png");  
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+.outside, .cart {
+    overflow:hidden;
+    position:relative;
+}
+
+
+.shoppingcart{
+    width:auto;
+}
+
+.carousel-inner > .carousel-item > img {
+    margin:0 auto;
+    height: 500px;
+    width: 500px;
+    object-fit: contain;
+}
+
+
+ 
